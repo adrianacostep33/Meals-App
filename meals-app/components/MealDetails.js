@@ -5,8 +5,7 @@ const MealDetails = ({ duration, complexity, affordability, textStyle }) => {
   console.log(textStyle);
   return (
     <View style={styles.details}>
-      <Text>AAAAA</Text>
-      <Text style={styles.detailItem}>{duration}</Text>
+      <Text style={[styles.detailItem, textStyle]}>{duration}</Text>
       <Text style={[styles.detailItem, textStyle]}>
         {complexity.toUpperCase()}
       </Text>
