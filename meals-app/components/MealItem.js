@@ -17,7 +17,6 @@ const MealItem = ({ title, imageUrl, duration, complexity, affordability }) => {
           styles.button,
           pressed ? styles.buttonPressed : null,
         ]}
-        // onPress={onPress}r
       >
         <View style={styles.innerContainer}>
           <View>
