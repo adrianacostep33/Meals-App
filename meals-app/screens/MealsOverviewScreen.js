@@ -1,7 +1,5 @@
 import React, { useLayoutEffect } from "react";
-import { FlatList, StyleSheet, Text, View } from "react-native";
 import { MEALS, CATEGORIES } from "../data/dummy-data";
-import MealItem from "../components/MealsList/MealItem";
 import MealsList from "../components/MealsList/MealsList";
 
 const MealsOverviewScreen = ({ route, navigation }) => {
@@ -22,5 +20,3 @@ const MealsOverviewScreen = ({ route, navigation }) => {
 };
 
 export default MealsOverviewScreen;
-
-const styles = StyleSheet.create({});
